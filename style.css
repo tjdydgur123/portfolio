@@ -15,6 +15,8 @@
   --color-orange: #feb546;
   --color-black: #000000;
   --color-brown: #693e16;
+  --color-light-brown: #a1887f;
+  --color-light2-brown: #725b54;
 
   /* Font size */
   --font-large: 48px;
@@ -98,7 +100,7 @@ p {
 #navbar {
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-pink);
+  background-color: var(--color-light-brown);
   align-items: center;
   color: var(--color-white);
   padding: 16px;
@@ -125,7 +127,7 @@ p {
 }
 
 .navbar__menu__item:hover {
-  background-color: var(--color-dark-pink);
+  background-color: var(--color-light2-brown);
 }
 
 /* Home */
@@ -382,7 +384,7 @@ p {
 
 /* Contact */
 #contact {
-  background-color: var(--color-blue);
+  background-color: var(--color-light2-brown);
 }
 
 .contact__title,
