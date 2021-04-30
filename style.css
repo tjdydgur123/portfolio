@@ -107,11 +107,12 @@ p {
   position: fixed;
   width: 100%;
   transition: all var(--animation-duration) ease-in-out;
+  z-index: 1;
 }
 
 #navbar.navbar--dark {
   background-color: var(--color-light-brown);
-  padding: 8px;
+  padding: 0;
 }
 
 .navbar__menu {
