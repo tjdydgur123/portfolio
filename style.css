@@ -233,6 +233,10 @@ p {
   align-items: center;
 }
 
+.job__logo {
+  width: 70px;
+}
+
 .job__description {
   margin: 8px 16px;
   text-align: left;
@@ -474,10 +478,9 @@ p {
     --font-small: 14px;
     --font-micro: 12px;
   }
-  /* .home__avatar {
-    width: 160px;
-    height: 160px;
-  } */
+  .job__logo {
+    width: 50px;
+  }
   .navbar__toggle-btn {
     display: block;
     top: 16px;
